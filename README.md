@@ -1,2 +1,4 @@
 # ERP-System
-ERP System written in JavaScript and Python with React and Django.
+A simple ERP System written in JavaScript and Python with React and Django.
+
+This was the final group project of the Constructor Learning Full Stack Bootcamp.
