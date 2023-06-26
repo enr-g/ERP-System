@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-textGrey;
+  }
+  button {
+    @apply rounded-ifRadius px-4 py-2;
+  }
+  input {
+    @apply rounded-ifRadius border-2 border-drawGrey px-2 py-0.5;
+  }
+  select {
+    @apply rounded-ifRadius border-2 border-buttonGrey px-2 py-1;
+  }
+  .text-title {
+    @apply text-2xl font-semibold;
+  }
+  .text-section {
+    @apply text-lg font-semibold;
+  }
+}
